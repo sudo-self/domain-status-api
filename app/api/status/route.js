@@ -1,4 +1,4 @@
-import axios from "axios";
+export const runtime = 'edge';
 
 const DOMAINS = [
   { name: "JesseJesse.com", url: "https://jessejesse.com" },
@@ -10,10 +10,16 @@ export async function GET() {
   const results = await Promise.all(
     DOMAINS.map(async (domain) => {
       try {
-        const response = await axios.get(domain.url, { timeout: 5000 });
-        return { ...domain, status: response.status === 200 ? "online" : "offline" };
+        const response = await fetch(domain.url, { method: "GET", redirect: "follow" });
+        return {
+          ...domain,
+          status: response.ok ? "online" : "offline",
+        };
       } catch {
-        return { ...domain, status: "offline" };
+        return {
+          ...domain,
+          status: "offline",
+        };
       }
     })
   );
@@ -23,3 +29,4 @@ export async function GET() {
     headers: { "Content-Type": "application/json" },
   });
 }
+
