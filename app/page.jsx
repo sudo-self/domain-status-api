@@ -109,7 +109,7 @@ export default function Home() {
 
       <footer className="relative z-10 py-4 border-t border-black dark:border-green-800 shadow-sm transition-colors duration-200 overflow-hidden text-center text-black dark:text-gray-300 hover:text-cyan-800 dark:hover:text-green-500 flex flex-col items-center gap-2">
         <a
-          href="https://github.com/sudo-self/"
+          href="https://github.com/sudo-self/domain-status-api"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 hover:text-cyan-800 dark:hover:text-green-500 transition-colors"
