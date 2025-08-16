@@ -55,7 +55,7 @@ export default function Navbar() {
           `,
         }}
       />
-      <Link href="/" className="relative z-10 flex items-center gap-2">
+      <Link href="https://domain-staatus-api.pages.dev" className="relative z-10 flex items-center gap-2">
         <Image
           src="/logo.png"
           alt="Logo"
@@ -64,7 +64,7 @@ export default function Navbar() {
           className="rounded-full"
         />
         <h1 className="text-xl font-semibold text-gray-900 dark:text-cyan-500 tracking-tight">
-          online status
+          domain-status-api
         </h1>
       </Link>
 
