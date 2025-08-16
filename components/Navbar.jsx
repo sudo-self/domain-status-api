@@ -64,7 +64,7 @@ export default function Navbar() {
           className="rounded-full"
         />
         <h1 className="text-xl font-semibold text-gray-900 dark:text-cyan-500 tracking-tight">
-          JesseJesse
+          XYZ
         </h1>
       </Link>
 
