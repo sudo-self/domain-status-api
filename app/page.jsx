@@ -34,7 +34,7 @@ export default function Home() {
 
   return (
     <div className="relative flex flex-col min-h-screen overflow-hidden">
-      {/* Grid background */}
+  
       <div
         className="absolute inset-0 pointer-events-none z-0"
         style={{
@@ -53,7 +53,7 @@ export default function Home() {
             <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2 font-mono">
              Domain Status API
             </h1>
-            <p className="text-emerald-600 dark:text-cyan-500 mb-4">
+            <p className="text-orange-600 dark:text-cyan-600 mb-4">
              status.JesseJesse.xyz
             </p>
 
@@ -115,7 +115,7 @@ export default function Home() {
           className="flex items-center gap-2 hover:text-cyan-800 dark:hover:text-green-500 transition-colors"
         >
           <Github size={20} />
-          <span className="text-sm text-bold">domain-status-api</span>
+          <span className="text-sm text-bold">Source on Github</span>
         </a>
       </footer>
     </div>
