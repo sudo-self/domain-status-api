@@ -64,7 +64,7 @@ export default function Navbar() {
           className="rounded-full"
         />
         <h1 className="text-xl font-semibold text-gray-900 dark:text-cyan-500 tracking-tight">
-          Domain Status API
+          status.JesseJesse.xyz
         </h1>
       </Link>
 
