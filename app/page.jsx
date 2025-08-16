@@ -51,10 +51,10 @@ export default function Home() {
         <div className="max-w-md mx-auto">
           <div className="flex flex-col items-center mb-8">
             <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2 font-mono">
-              status.JesseJesse.xyx
+             Domain Health Monitor
             </h1>
             <p className="text-emerald-600 dark:text-cyan-500 mb-4">
-              Uptime Monitoring API
+             status.JesseJesse.xyz
             </p>
 
             <div className="flex items-center gap-3">
