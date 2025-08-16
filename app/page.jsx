@@ -51,7 +51,7 @@ export default function Home() {
         <div className="max-w-md mx-auto">
           <div className="flex flex-col items-center mb-8">
             <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2 font-mono">
-             Domain Status Monitor
+             Domain Status API
             </h1>
             <p className="text-emerald-600 dark:text-cyan-500 mb-4">
              status.JesseJesse.xyz
@@ -115,7 +115,7 @@ export default function Home() {
           className="flex items-center gap-2 hover:text-cyan-800 dark:hover:text-green-500 transition-colors"
         >
           <Github size={20} />
-          <span className="text-sm">domain-status-api</span>
+          <span className="text-sm text-bold">domain-status-api</span>
         </a>
       </footer>
     </div>
